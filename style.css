@@ -79,6 +79,7 @@ header{
     font-size: 20px;
     font-weight: 500;
     color: var(--text-color);
+    
 }
 #navbar a:hover{
     color: var(--main-color);
@@ -238,7 +239,13 @@ header{
     font-size: 3.2rem;
     margin-bottom: 1rem;
     font-weight: bolder;
-    color: var(--bg-color);
+    background: linear-gradient(to right,
+    #8bb4c8, #04548e,#0b8fe1,
+    #352661, #fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .home #btn-1{
@@ -348,7 +355,7 @@ header{
     right: 0;
     padding: 10px;
     margin: 20px;
-    font-size: 24px;
+    font-size: 20px;
     background: var(--main-color);
     color: var(--bg-color);
 }
@@ -394,8 +401,9 @@ header{
     grid-template-columns: repeat(auto-fit,minmax(240px,auto));
     gap: 10px;
     margin-top: 20px;
-    background: #02171d;
-    color: #a1a6a8;
+    background: #1B3658;
+    opacity: 0.9;
+    color: #8b979d;
 }
 .footer-box h2{
     font-size: 1.2rem;
@@ -528,6 +536,7 @@ padding: 3px;
 .home-text h1{
     width: 100%;
     line-break:anywhere;
+    text-align: justify;
     font-size: 20px;
     font-weight: 700;
     color: var(--bg-color);
@@ -589,7 +598,7 @@ padding: 3px;
 
 .product-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+    grid-template-columns: repeat(auto-fit,minmax(90px,auto));
     align-items: center;
     gap: 10px;
     margin-top: 20px;
@@ -598,8 +607,8 @@ padding: 3px;
   animation-range: entry 0% cover 15%;
 }
 .product-container .box{
-    width: 170px;
-    height: 200px;
+    width: 110px;
+    height: 210px;
     position: relative;
     align-items: center;
     padding: 10px;
@@ -608,7 +617,7 @@ padding: 3px;
 }
 .product-container .box img{
     width: 100%;
-    height: 60%;
+    height: 55%;
     object-fit: cover;
 }
 
@@ -641,7 +650,7 @@ padding: 3px;
     right: 0;
     padding: 5px;
     margin: 5px;
-    font-size: 15px;
+    font-size: 10px;
     background: var(--main-color);
     color: var(--bg-color);
 }
@@ -835,8 +844,8 @@ header{
   animation-range: entry 0% cover 15%;
 }
 .product-container .box{
-    width: 200px;
-    height: 180px;
+    width: 100%;
+    height: 230px;
     position: relative;
     padding: 10px;
     border-radius: 5px;
@@ -844,7 +853,7 @@ header{
 }
 .product-container .box img{
     width: 100%;
-    height: 60%;
+    height: 70%;
     object-fit: cover;
 }
 
@@ -1448,3 +1457,25 @@ header{
 }
 
 }
+
+
+/* Box HTML */
+/* 
+.box-1{
+    display: flex;
+    padding: 30px;
+}
+.box-1 img{
+    width: 30%;
+    height: 50%;
+}
+.content-1{
+    padding: 30px;
+}
+.content-1 h2{
+    font-size: 25px;
+
+}
+.content-1 .stars{
+ color: #fd7302;
+} */
