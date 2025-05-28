@@ -1490,31 +1490,3 @@ header{
 .content-1 .stars{
  color: #fd7302;
 }
-.box-1 button{
-    width: 30px;
-    height: 30px;
-    background: #929da2;
-    border: none;
-}
-.button-2 button{
-    color: #fff;
-}
-.button-2 button:hover{
-    background-color: #04548e;
-}
-
-.btn-2{
-    margin-top: 20px;
-}
-
-.btn-2 button{
-    width: 20%;
-    height: 50px;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 15px;
-    background: #02171d;
-}
-.btn-2 button:hover{
-    background: #4c5051;
-}
